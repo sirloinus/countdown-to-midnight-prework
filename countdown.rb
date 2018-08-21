@@ -16,10 +16,10 @@ def countdown(int)
 end
 
     
-    def countdown_with_sleep(int)
+def countdown_with_sleep(int)
   while int > 0 do
     puts "#{int} SECOND(S)!"
-    sleep(0.5)    
+    sleep(1)    
     int -= 1
   end
   return 'HAPPY NEW YEAR!'
